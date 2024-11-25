@@ -151,12 +151,11 @@ body {
   }
   
 
-  /* -Crear un nuevo archivo index.html en el mismo directorio que products.html 
+  .custom-link {
+    text-decoration: none; /* Quitar subrayado */
+    color: inherit; /* Usar el color del texto base */
+}
 
--Escribir un encabezado que indique que es un ejercicio evaluado 
-
--Escribir un párrafo que describa brevemente la información de products.html 
-
--Crear un enlace que abra products.html en una nueva ventana 
-
--Eliminar el subrayado y color del enlace con una hoja de estilos */
+.custom-link:hover {
+    color: #007bff; /* Cambiar color al pasar el mouse */
+}
