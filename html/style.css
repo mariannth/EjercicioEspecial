@@ -2,7 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f5f5f5; */
+    /* background-color: #f4f4f9; */
+    color: #333;
+    line-height: 1.6;
 }
 
 .bd-placeholder-img {
@@ -151,11 +153,65 @@ body {
   }
   
 
-  .custom-link {
-    text-decoration: none; /* Quitar subrayado */
-    color: inherit; /* Usar el color del texto base */
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #0056b3;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.main-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.main-content ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.custom-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .custom-link:hover {
-    color: #007bff; /* Cambiar color al pasar el mouse */
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 4px solid #0056b3;
 }
